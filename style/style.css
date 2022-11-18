@@ -60,6 +60,7 @@ body {
 	margin: 15px;
 }
 
+/*first page section start*/
 .wrap-header-nav {
 	display: flex;
 	width: 573px;
@@ -139,18 +140,21 @@ body {
 	opacity: 0.6;
 }
 
-.exciting__title-highlight {
+.wrap-title {
+	background-color: rgba(0, 120, 201, 0.1);
+	width: 484px;
+}
+
+.exciting__title {
+	padding-left: 10px;
+	margin-top: 3px;
+	margin-bottom: 0px;
 	font-family: "Hind Siliguri";
 	font-style: normal;
 	font-weight: 600;
 	font-size: 61px;
 	line-height: 73px;
 	color: #247cc0;
-}
-
-.exciting__title {
-	margin-top: 3px;
-	margin-bottom: 0px;
 }
 
 .exciting__title-highlight-below {
@@ -229,7 +233,9 @@ body {
 }
 
 .wrap-content-basic {
+	position: relative;
 	display: flex;
+	z-index: 1;
 }
 
 .wrap-content-img {
@@ -238,9 +244,20 @@ body {
 }
 
 .wrap-exciting-footer {
+	position: relative;
+	z-index: 5;
 	width: 1140px;
 	height: 237px;
 	margin: 0 auto;
+	margin-top: -37px;
+	background: #ffffff;
+	box-shadow: 0px 100px 80px rgba(174, 174, 174, 0.08),
+		0px 43.751px 36.4414px rgba(174, 174, 174, 0.0575083),
+		0px 19.8401px 19.1406px rgba(174, 174, 174, 0.0476886),
+		0px 6.77214px 9.61331px rgba(174, 174, 174, 0.04),
+		0px 0.190079px 4.14347px rgba(174, 174, 174, 0.0323114),
+		0px -1.73968px 1.20532px rgba(174, 174, 174, 0.0224916);
+	border-radius: 0px;
 }
 
 .wrap-exciting-footer img {
@@ -251,3 +268,249 @@ body {
 .wrap-exciting-footer img:first-child {
 	padding-left: 118px;
 }
+
+.exciting__footer-img {
+	display: inline-block;
+	height: 85px;
+	width: 163px;
+}
+
+/*first page section end*/
+
+/*always in style section start*/
+.wrap-flex-always-instyle {
+	display: flex;
+	width: 1133px;
+	margin-left: 230px;
+	height: 270px;
+	margin-top: 110px;
+}
+
+.wrap-flex-inner {
+	width: 556px;
+	display: flex;
+}
+
+.flex-always-cart {
+	position: relative;
+	top: -260px;
+	left: 250px;
+}
+
+.wrap-always-instyle__img {
+	height: 248px;
+	align-self: flex-end;
+}
+
+.always-instyle__txt-content {
+	margin-left: 30px;
+	display: inline-block;
+	width: 256px;
+	padding-top: 53px;
+}
+
+.always-instyle__title {
+	font-family: "Hind Siliguri";
+	line-height: 40px;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 25px;
+	color: #030d15;
+	margin: 0px;
+}
+
+.always-instyle__maintext {
+	font-family: "Hind Siliguri";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	color: #030d15;
+	opacity: 0.6;
+	margin: 0px;
+	margin-top: 9px;
+}
+
+.always-instyle__prices {
+	margin: 0px;
+	margin-top: 20px;
+	margin-bottom: 15px;
+}
+
+.always-instyle__prices-real {
+	font-family: "Hind Siliguri";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 27px;
+	color: #030d15;
+}
+
+.always-instyle__prices-crossing {
+	font-family: "Hind Siliguri";
+	font-style: normal;
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 27px;
+	color: #030d15;
+	opacity: 0.5;
+}
+
+/*always in style section end*/
+
+/*features drone and camera section start*/
+
+.wrap-features-flex {
+	box-sizing: border-box;
+	display: flex;
+	width: 1140px;
+	height: 333px;
+	padding-top: 22px;
+	padding-bottom: 15px;
+	margin: 138px 230px 31px 230px;
+}
+
+.wrap-features-inner-flex {
+	display: flex;
+	background: linear-gradient(257.26deg, #008bf0 -13.2%, #d943c9 130.95%);
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	width: 555px;
+	height: 296px;
+	margin-right: 30px;
+	color: #f4f9fc;
+}
+
+.features__content-txt {
+	width: 249px;
+	padding-top: 75px;
+	padding-left: 35px;
+	text-transform: uppercase;
+}
+
+.features__content-discont {
+	font-family: "Hind Siliguri";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 27px;
+	opacity: 0.6;
+	margin: 0px;
+}
+
+.features__content-mainfeature {
+	font-family: "Hind Siliguri";
+	font-style: normal;
+	font-weight: 600;
+	font-size: 31px;
+	line-height: 40px;
+	margin: 0px;
+	margin-top: 5px;
+}
+
+.features_content-action {
+	font-family: "Hind Siliguri";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 27px;
+}
+
+.features_content-img-wrap {
+	width: 265px;
+}
+
+.features_content-img-telecopter {
+	position: relative;
+	right: 60px;
+	top: -20px;
+}
+
+.features_content-img-camera {
+	position: relative;
+	right: 20px;
+	top: 30px;
+}
+
+/*features drone and camera section end*/
+
+/*about products section start*/
+
+.wrap-about-products {
+	width: 1600px;
+	height: 870px;
+	padding-left: 135px;
+	display: flex;
+}
+
+.about-products-content-list {
+	list-style: outside;
+	list-style-type: none;
+}
+
+.wrap-about-products-img {
+	padding-right: 131px;
+}
+
+.wrap-about-products-content {
+	padding-top: 115px;
+	width: 457px;
+}
+
+.about-products-content-preview {
+	font-family: "Hind Siliguri";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 23px;
+	letter-spacing: 0.145em;
+	text-transform: uppercase;
+	color: #c72535;
+	opacity: 0.6;
+	margin: 0px;
+}
+
+.about-products-content-title {
+	font-family: "Hind Siliguri";
+	font-style: normal;
+	font-weight: 600;
+	font-size: 44px;
+	line-height: 71px;
+	color: #030d15;
+	margin: 0px;
+	padding-bottom: 115px;
+}
+
+.about-products-content-main {
+	font-family: "Hind Siliguri";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	color: #030d15;
+	opacity: 0.6;
+	margin: 0px;
+}
+
+.about-products-content-list {
+	padding-top: 40px;
+	margin: 0px;
+	padding-left: 0px;
+	width: 380px;
+}
+
+.about-products-content-list li {
+	font-family: "Hind Siliguri";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 27px;
+	color: #030d15;
+	margin-bottom: 20px;
+	padding-left: 30px;
+	background: url(./img/pointer.png) no-repeat center left;
+}
+
+.about-products-content-list li:nth-child(2) {
+	background: url(./img/pointer.png) no-repeat top left;
+}
+
+/*about products section end*/
