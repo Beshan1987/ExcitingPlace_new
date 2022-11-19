@@ -55,9 +55,13 @@
 }
 
 body {
+	background: #e5e5e5;
+}
+
+.wrap-intire {
 	width: 1600px;
 	background: #ffffff;
-	margin: 15px;
+	margin: 15px auto;
 }
 
 /*first page section start*/
@@ -71,14 +75,13 @@ body {
 	font-style: normal;
 	font-weight: 500;
 	font-size: 14px;
-	line-height: 23px;
+	line-height: 21px;
 	text-transform: uppercase;
 	color: #030d15;
 }
 
 .header__nav-list {
 	margin-right: 10px;
-	vertical-align: middle;
 	height: 23px;
 	align-self: center;
 }
@@ -94,9 +97,14 @@ body {
 	height: 90px;
 }
 
+.header__nav-item:hover {
+	cursor: pointer;
+}
+
 .header__nav-icon {
-	vertical-align: middle;
-	padding-left: 8px;
+	display: inline-block;
+	padding-left: 3px;
+	padding-bottom: 2px;
 }
 
 .wrap-header-search {
@@ -112,6 +120,10 @@ body {
 
 .wrap-header-search img:nth-child(3) {
 	margin-right: 0px;
+}
+
+.wrap-header-search-link {
+	cursor: pointer;
 }
 
 .header__logo {
@@ -196,6 +208,10 @@ body {
 	line-height: 26px;
 	text-transform: uppercase;
 	color: #ffffff;
+}
+
+.exciting__button-link:hover {
+	cursor: pointer;
 }
 
 .wrap-exciting-prices {
@@ -297,6 +313,10 @@ body {
 	left: 250px;
 }
 
+.always-cart-img-link:hover {
+	cursor: pointer;
+}
+
 .wrap-always-instyle__img {
 	height: 248px;
 	align-self: flex-end;
@@ -380,7 +400,7 @@ body {
 }
 
 .features__content-txt {
-	width: 249px;
+	width: 258px;
 	padding-top: 75px;
 	padding-left: 35px;
 	text-transform: uppercase;
@@ -406,12 +426,19 @@ body {
 	margin-top: 5px;
 }
 
+.features__content-mainfeature-normal {
+	text-transform: none;
+}
+
 .features_content-action {
 	font-family: "Hind Siliguri";
 	font-style: normal;
 	font-weight: 500;
 	font-size: 14px;
 	line-height: 27px;
+}
+.features_content-action-link:hover {
+	cursor: pointer;
 }
 
 .features_content-img-wrap {
@@ -420,14 +447,14 @@ body {
 
 .features_content-img-telecopter {
 	position: relative;
-	right: 60px;
+	right: 55px;
 	top: -20px;
 }
 
 .features_content-img-camera {
 	position: relative;
-	right: 20px;
-	top: 30px;
+	right: 30px;
+	top: 40px;
 }
 
 /*features drone and camera section end*/
@@ -514,3 +541,280 @@ body {
 }
 
 /*about products section end*/
+
+/*popular products section start*/
+
+.wrap-popular-products__title {
+	text-align: center;
+	margin-top: 124px;
+}
+
+.popular-products__title-preview {
+	font-family: "Hind Siliguri";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 23px;
+	text-align: center;
+	letter-spacing: 0.145em;
+	text-transform: uppercase;
+	color: #c72535;
+	opacity: 0.6;
+	margin: 0px;
+}
+
+.popular-products__title-maintxt {
+	font-family: "Hind Siliguri";
+	font-style: normal;
+	font-weight: 600;
+	font-size: 44px;
+	line-height: 71px;
+	color: #030d15;
+	margin: 0px;
+	margin-bottom: 22px;
+}
+
+.popular-products-nav__list {
+	list-style-type: none;
+	display: flex;
+	margin-left: 555px;
+	padding-left: 0px;
+}
+
+.popular-products-nav__item {
+	margin-right: 40px;
+	font-family: "Hind Siliguri";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 23px;
+	text-transform: uppercase;
+	color: #030d15;
+	opacity: 0.6;
+}
+
+.popular-products-nav__list li:last-child {
+	margin-right: 0px;
+}
+
+.popular-products-nav__list li:hover {
+	color: #c72535;
+	cursor: pointer;
+}
+
+.wrap-flex-popular-products__choices {
+	display: flex;
+	width: 1140px;
+	height: 1100x;
+	align-content: space-between;
+	flex-wrap: wrap;
+	margin-left: 230px;
+}
+
+.wrap-popular-products__item {
+	width: 360px;
+	height: 503px;
+	margin-right: 30px;
+}
+
+.wrap-flex-popular-products__choices div:nth-child(3) {
+	margin-right: 0px;
+}
+
+.wrap-flex-popular-products__choices div:nth-child(6) {
+	margin-right: 0px;
+}
+
+.wrap-popular-products__item-pic {
+	padding: 35px 37px 0px 37px;
+}
+.popular-products__item-discont {
+	font-family: "Hind Siliguri";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 27px;
+	color: #030d15;
+	margin: 0px;
+	background: url(./img/mouse.png);
+	width: 286px;
+	height: 273px;
+}
+
+.popular-products__item-nav-list {
+	display: flex;
+	list-style-type: none;
+	width: 290px;
+	justify-content: space-between;
+	padding-left: 35px;
+	height: 22px;
+	margin: 0px;
+	margin-top: 62px;
+}
+
+.wrap-flex-popular-products__prices {
+	margin-top: 42px;
+	display: flex;
+	margin-left: 35px;
+	width: 360px;
+	height: 42px;
+}
+
+.popular-products__prices {
+	font-family: "Hind Siliguri";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 27px;
+	color: #030d15;
+}
+
+.popular-products__prices-cross {
+	font-family: "Hind Siliguri";
+	font-style: normal;
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 27px;
+	text-align: center;
+	text-decoration-line: line-through;
+	color: #030d15;
+	opacity: 0.5;
+}
+
+.popular-products__prices-padding {
+	padding-left: 35px;
+}
+
+.popular-products__prices-spliter {
+	font-family: "Hind Siliguri";
+	font-style: normal;
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 27px;
+	text-align: center;
+	color: #030d15;
+	opacity: 0.5;
+}
+
+.popular-products__rating-img {
+	padding-top: 3px;
+	padding-bottom: 28px;
+}
+
+.popular-products__color {
+	margin-left: 75px;
+	align-self: center;
+}
+
+.popular-products__color-choice {
+	margin-right: 20px;
+}
+
+.popular-products__color img:last-child {
+	margin-right: 0px;
+}
+
+.popular-products__color img:hover {
+	opacity: 0.7;
+	cursor: pointer;
+}
+
+.popular-products__item-nav-img {
+	cursor: pointer;
+}
+
+.popular-products__item-discont-speaker {
+	padding: 35px 0px 0px 33px;
+	margin: 0px;
+	font-family: "Hind Siliguri";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 27px;
+	color: #030d15;
+}
+
+.popular-products__item-discont-speaker-img {
+	padding: 12px 59px 0px 58px;
+}
+
+.popular-products__item-discont-speaker-name {
+	margin: 0px;
+	padding-left: 35px;
+	padding-top: 72px;
+	font-family: "Hind Siliguri";
+	font-style: normal;
+	font-weight: 600;
+	font-size: 25px;
+	line-height: 40px;
+	color: #030d15;
+}
+
+.popular-products__item-discont-keyboard-name {
+	padding-top: 126px;
+}
+
+.wrap-flex-popular-products__prices-speaker {
+	margin-top: 0px;
+}
+
+.popular-products__item-discont-keyboard-img {
+	padding-top: 50px;
+	padding-left: 47px;
+}
+
+.popular-products__item-discont-keyboard-name {
+	padding-top: 126px;
+}
+
+.wrap-popular-products__item-mac-pic {
+	margin-top: 15px;
+	margin-left: 17px;
+	height: 313px;
+	width: 326px;
+	background: url(./img/Macbook.png) no-repeat;
+}
+
+.popular-products__item-discont-macbook {
+	padding-top: 20px;
+	padding-left: 18px;
+	margin: 0px;
+	font-family: "Hind Siliguri";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 27px;
+	color: #030d15;
+}
+
+.popular-products__item-discont-mac-name {
+	padding-top: 50px;
+}
+
+.wrap-popular-products__item-pic-headpones {
+	margin-top: 35px;
+	margin-left: 43px;
+	margin-right: 42px;
+	height: 275px;
+	width: 262px;
+	background: url(./img/headphones_popular.png) no-repeat;
+}
+
+.popular-products__item-discont-headphones {
+	margin: 0px;
+	padding: 0px;
+}
+
+.popular-products__item-discont-speaker-headphones {
+	padding-top: 75px;
+}
+
+.popular-products__item-discont-iphone-img {
+	padding: 49px 47px 0px 47px;
+}
+
+.popular-products__item-discont-iphone-name {
+	padding-top: 76px;
+}
+
+/*popular products section end*/
