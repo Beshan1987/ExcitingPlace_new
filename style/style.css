@@ -579,6 +579,7 @@ body {
 	display: flex;
 	margin-left: 555px;
 	padding-left: 0px;
+	margin-bottom: 0px;
 }
 
 .popular-products-nav__item {
@@ -597,18 +598,30 @@ body {
 	margin-right: 0px;
 }
 
+.popular-products-nav__list li:first-child {
+	color: #c72535;
+}
+
 .popular-products-nav__list li:hover {
 	color: #c72535;
 	cursor: pointer;
 }
 
+.popular-products-nav__list
+	li:nth-child(2)
+	+ .popular-products-nav__list
+	li:nth-child(1) {
+	color: #030d15;
+}
+
 .wrap-flex-popular-products__choices {
 	display: flex;
 	width: 1140px;
-	height: 1100x;
+	height: 1036px;
 	align-content: space-between;
 	flex-wrap: wrap;
 	margin-left: 230px;
+	padding-top: 50px;
 }
 
 .wrap-popular-products__item {
@@ -792,16 +805,18 @@ body {
 }
 
 .wrap-popular-products__item-pic-headpones {
-	margin-top: 35px;
+	margin-top: 41px;
 	margin-left: 43px;
 	margin-right: 42px;
-	height: 275px;
-	width: 262px;
+	width: 275px;
+	height: 262px;
 	background: url(./img/headphones_popular.png) no-repeat;
 }
 
 .popular-products__item-discont-headphones {
-	margin: 0px;
+	position: relative;
+	top: -6px;
+	left: -8px;
 	padding: 0px;
 }
 
@@ -817,4 +832,136 @@ body {
 	padding-top: 76px;
 }
 
+.popular-products__item-discont-speaker-name:hover {
+	cursor: pointer;
+}
+
+.popular-products__view-more {
+	font-family: "Hind Siliguri";
+	font-style: normal;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 23px;
+	text-transform: uppercase;
+	color: #030d15;
+	padding-top: 56px;
+	margin: 0px;
+	padding-left: 768px;
+}
+
+.popular-products__view-more-arrow {
+	padding-left: 5px;
+	width: 26px;
+	height: 10px;
+}
+
+.popular-products__view-more-arrow:hover {
+	padding-left: 14px;
+	cursor: pointer;
+}
+
 /*popular products section end*/
+
+/*storehouses products section start*/
+
+.storehouses__title-whole {
+	padding-top: 146px;
+	width: 1140px;
+	margin: 0 auto;
+}
+
+.popular-products__title-maintxt {
+	text-align: center;
+	margin-bottom: 7px;
+}
+
+.storehouses__title-txt {
+	font-family: "Hind Siliguri";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	text-align: center;
+	color: #030d15;
+	opacity: 0.6;
+	margin: 0px;
+	padding: 0px 341px;
+}
+
+.storehouses__content-item-game {
+	width: 360px;
+	height: 330px;
+	background: url(./img/game.png) no-repeat;
+	background-position: center;
+	padding-bottom: 30px;
+}
+
+.storehouses__content-item-game-prices-control {
+	padding-top: 35px;
+	padding-left: 35px;
+}
+
+.popular-products__rating-img {
+	padding-bottom: 0px;
+}
+
+.popular-products__item-nav-game {
+	margin-top: 206px;
+}
+
+.storehouses__content-item-game-tablet {
+	width: 360px;
+	height: 456px;
+	background: url(./img/Tablet.png) no-repeat;
+	background-position-x: 30px;
+	background-position-y: 53px;
+}
+
+.storehouses__content-item-game-telecopter {
+	width: 360px;
+	height: 252px;
+	background: url(./img/telecopter-white.png) no-repeat;
+	background-position-x: 26px;
+	background-position-y: 18px;
+	padding-bottom: 30px;
+}
+
+.storehouses__content-item-game-radio {
+	width: 360px;
+	height: 252px;
+	background: url(./img/radio_small.png);
+	padding-bottom: 30px;
+}
+
+.storehouses__content-item-game-laptop {
+	width: 360px;
+	height: 252px;
+	background: url(./img/laptop_white.png) no-repeat;
+	background-position-x: 39px;
+	background-position-y: 27px;
+}
+
+.wrap-flex-storehouses__content {
+	display: flex;
+	width: 1140px;
+	justify-content: space-between;
+	padding-left: 230px;
+	height: 816px;
+	padding-top: 50px;
+}
+
+.storehouses__content-item-game-iphone {
+	width: 360px;
+	height: 432px;
+	background: url(./img/iphone_blue.png) no-repeat;
+	background-position-x: 26px;
+	background-position-y: 36px;
+	padding-bottom: 30px;
+}
+
+.storehouses__content-item-game-headphones {
+	width: 360px;
+	height: 354px;
+	background: url(./img/headphones_red.png);
+}
+/*storehousesproducts section end*/
